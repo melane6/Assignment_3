@@ -36,11 +36,11 @@ public class Seahorse extends Animal implements Prey
      * @param location The location within the field.
      * @param canBreed determines whether an animal can breed or not.
      */
-    public Seahorse(boolean randomAge, int age, Field field, Location location, boolean canBreed)
+    public Seahorse(int randomAge, Field field, Location location)
     {
-        super(age, field, location, canBreed);
-        if(randomAge) {
-            age = rand.nextInt(MAX_AGE);
+        super(randomAge, field, location);
+        if (randomAge != 0){
+            randomAge = rand.nextInt(MAX_AGE);
         }
     }
     
@@ -80,7 +80,7 @@ public class Seahorse extends Animal implements Prey
         int births = breed();
         for(int b = 0; b < births && free.size() > 0; b++) {
             Location loc = free.remove(0);
-            Seahorse young = new Seahorse(false, 0, field, loc, false);
+            Seahorse young = new Seahorse(0, field, loc);
             newSeahorses.add(young);
         }
     }

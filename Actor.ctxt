@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=Actor
+comment0.text=\r\n\ Abstract\ class\ Actor\ -\ write\ a\ description\ of\ the\ class\ here\r\n\r\n\ @author\ (your\ name\ here)\r\n\ @version\ (version\ number\ or\ date\ here)\r\n
+comment1.params=field\ location\ canBreed
+comment1.target=Actor(Field,\ Location,\ boolean)
+comment2.params=
+comment2.target=void\ setDead()
+comment2.text=\r\n\ Indicate\ that\ the\ animal\ is\ no\ longer\ alive.\r\n\ It\ is\ removed\ from\ the\ field.\r\n
+comment3.params=
+comment3.target=Location\ getLocation()
+comment3.text=\r\n\ Return\ the\ animal's\ location.\r\n\ @return\ The\ animal's\ location.\r\n
+comment4.params=newLocation
+comment4.target=void\ setLocation(Location)
+comment4.text=\r\n\ Place\ the\ animal\ at\ the\ new\ location\ in\ the\ given\ field.\r\n\ @param\ newLocation\ The\ animal's\ new\ location.\r\n
+comment5.params=
+comment5.target=Field\ getField()
+comment5.text=\r\n\ Return\ the\ animal's\ field.\r\n\ @return\ The\ animal's\ field.\r\n
+comment6.params=
+comment6.target=boolean\ canBreed()
+comment6.text=\r\n\ Returns\ if\ the\ animal\ can\ breed\r\n\ @return\ true\ if\ animal\ breed\ otherwise\ return\ false\r\n
+numComments=7

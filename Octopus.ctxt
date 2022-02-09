@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Octopus
+comment0.text=\r\n\ A\ simple\ model\ of\ an\ Octopus.\r\n\ Octopuses\ age,move,\ eat\ starfish\ and\ die.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=randomAge\ field\ location\ canBreed
+comment1.target=Octopus(int,\ Field,\ Location,\ boolean)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Octopus\r\n
+comment2.params=newOctopuses
+comment2.target=void\ act(java.util.List)
+comment2.text=\r\n\ This\ is\ what\ the\ octopus\ does\ most\ of\ the\ time\:\ it\ hunts\ \r\n\ for\ starfish.\ In\ the\ process,\ it\ might\ breed,\ die\ of\ hunger\r\n\ or\ old\ age.\r\n\ \r\n\r\n\ @param\ \ newOctopuses\ \ A\ list\ to\ return\ the\ new\ Octopus\r\n
+numComments=3

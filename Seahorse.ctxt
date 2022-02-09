@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Seahorse
+comment0.text=\r\n\ A\ model\ of\ a\ seahorse.\r\n\ Seahorse\ age,\ move,\ breed,\ and\ die,\ as\ they\ are\ preys.\r\n\ \r\n\ @author\ David\ J.\ Barnes\ and\ Michael\ K\u00F6lling,\ edited\ by...\r\n\ @version\ 2016.03.18\ /\ 2022.03.02\r\n
+comment1.params=randomAge\ age\ field\ location\ canBreed
+comment1.target=Seahorse(boolean,\ int,\ Field,\ Location,\ boolean)
+comment1.text=\r\n\ Create\ a\ new\ seahorse.\ A\ seahorse\ may\ be\ created\ with\ age\r\n\ zero\ (a\ new\ born)\ or\ with\ a\ random\ age.\r\n\ \r\n\ @param\ randomAge\ If\ true,\ the\ seahorse\ will\ have\ a\ random\ age.\r\n\ @param\ The\ initial\ age\ of\ the\ seahorse\ (set\ to\ zero\ in\ Animal\ class).\r\n\ @param\ field\ The\ field\ currently\ occupied.\r\n\ @param\ location\ The\ location\ within\ the\ field.\r\n\ @param\ canBreed\ determines\ whether\ an\ animal\ can\ breed\ or\ not.\r\n
+comment2.params=newSeahorses
+comment2.target=void\ act(java.util.List)
+comment2.text=\r\n\ This\ is\ what\ the\ seahorse\ does\ most\ of\ the\ time\ -\ it\ runs\ \r\n\ around.\ Sometimes\ it\ will\ breed\ or\ die\ of\ old\ age.\r\n\ @param\ newSeahorses\ A\ list\ to\ return\ newly\ born\ seahorses.\r\n
+comment3.params=newSeahorses
+comment3.target=void\ giveBirth(java.util.List)
+comment3.text=\r\n\ Check\ whether\ or\ not\ this\ rabbit\ is\ to\ give\ birth\ at\ this\ step.\r\n\ New\ births\ will\ be\ made\ into\ free\ adjacent\ locations.\r\n\ @param\ newRabbits\ A\ list\ to\ return\ newly\ born\ rabbits.\r\n
+comment4.params=
+comment4.target=int\ breed()
+comment4.text=\r\n\ Generate\ a\ number\ representing\ the\ number\ of\ births,\r\n\ if\ it\ can\ breed.\r\n\ @return\ The\ number\ of\ births\ (may\ be\ zero).\r\n
+numComments=5
